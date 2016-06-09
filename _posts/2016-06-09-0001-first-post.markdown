@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "First Post!"
+date:   2016-06-09 09:48:41 +0200
+categories: jekyll update
+---
+<img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/d6/65/30/d66530c422774e7f05f0a3aaac5960df.jpg" alt="It's Happening">
+
+First post. YAY!
+

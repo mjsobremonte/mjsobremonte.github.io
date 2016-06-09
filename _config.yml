@@ -1,21 +1,48 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "mjsobremonte.github.io" # the base hostname & protocol for your site.
+title: "Random stuff and things"
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+paginate: 10 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-# Build settings
-markdown: kramdown
+#contacts
+git: "https://github.com/mjsobremonte"  #your github url here.
+stackoverflow: "http://stackoverflow.com/users/2099054/mjsobremonte" #Add your stackoverflow url here.
+twitter: "https://twitter.com/mjsobremonte"  #Add your twitter url here.
+
+#disqus comment
+disqus:
+    shortname: "mjsobremonte" #your disqus comment short name
+
+#google analytics
+google:
+    tracking-id: "" #your tracking id here
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
