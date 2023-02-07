@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.3)
+    activesupport (7.0.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -13,7 +13,7 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     colorator (0.1)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.0)
     crass (1.0.6)
     email_reply_parser (0.5.8)
     escape_utils (1.1.1)
@@ -59,7 +59,7 @@ GEM
     html-pipeline (2.14.2)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    i18n (1.10.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jekyll (3.1.6)
       colorator (~> 0.1)
@@ -105,7 +105,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.8.1)
-    minitest (5.16.0)
+    minitest (5.17.0)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.14.1)
@@ -136,7 +136,7 @@ GEM
     terminal-table (1.6.0)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
